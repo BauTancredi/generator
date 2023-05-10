@@ -7,7 +7,8 @@
   "extends": [
     "plugin:prettier/recommended",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "plugins": ["react", "prettier", "import", "@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
@@ -36,7 +37,7 @@
         "tabWidth": 2,
         "semi": true,
         "singleQuote": false,
-        "bracketSpacing": false,
+        "bracketSpacing": true,
         "arrowParens": "always",
         "endOfLine":"auto"
       }

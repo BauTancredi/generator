@@ -16,6 +16,7 @@ module.exports = class extends Generator {
       "eslint-plugin-promise",
       "eslint-plugin-react",
       "eslint-plugin-react-hooks",
+      "eslint-plugin-tailwindcss",
       "@typescript-eslint/parser",
       "@typescript-eslint/eslint-plugin",
     ]);
